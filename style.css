@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #000;
+    padding: 1em;
+}
+h1, h2, h3 {
+    color: #fff;
+}
+a {
+    color: #00f;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.product-card {
+    background: #222;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
